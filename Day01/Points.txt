@@ -1,0 +1,252 @@
+Python
+------
+
+Why python?
+
+inbuilt libraries
+
+
+int i
+str s
+float f
+
+
+i = 10
+
+i = "hello"
+
+
+i: int Annotations
+
+
+Desktop		-  Tkinter (TCL / TK), Kivy, wxPython, PyQt, 			   pySimpleGUI, PyGTK, PySide, Toga
+
+
+Web Application - MVC, REST API, MVVM
+		   Flask, Django, FastApi, Pyramid
+		
+
+Mobile App	- Kivy
+
+
+Testing 	- unittest, pytest, selenium, Robotframework
+
+
+Automation 	- paramiko, TensorFlow, scikitlearn, openpyxl
+
+
+Web Scrapping	- requests, Beautifulsoup, lxml
+
+
+Data Science    - Numpy, pandas, Matplotlib, seaborn
+
+Data Analytics  - Numpy, pandas, Matplotlib, seaborn
+
+ML
+
+DL
+
+AI
+
+GEN AI
+
+------------------------------------------------------------------
+
+add numbers
+-----------
+
+hard code
+
+def add_num(x, y):
+   return x + y
+
+generic code
+------------
+def add_nums(*arg):
+   p = 0
+   for num in arg:
+	p += num
+   return p
+
+Python
+------
+two different versions
+
+2.x vs 3.x
+----------
+2.x - older version
+-------------------
+print "hello"
+
+
+3.x - latest version
+--------------------
+print("hello")
+
+3.13 GIL(removed)
+
+Flavours of Python
+------------------
+1. CPython	- currently working on
+
+2. Jython	- Jython is an implementation of the python language 		  that runs on the java virtual machine
+
+3. IronPython	- is a python implementation to work within the dotnet 		  framework
+
+
+python - www.python.org
+-----------------------
+1. Python SDK
+2. Python Shell (Interactive environment)
+3. IDLE - Integrated Development Environment
+
+Editors
+-------
+Notepad++	
+
+PyCharm CE	-
+VS Code	CE
+
+Sublime text
+Eclipse (addons)
+
+jupyter notebook
+spyder
+
+google colabs
+
+--------------------------------------------------------------------
+Virtual Environment
+-------------------
+python -m venv Name
+
+scripts folder
+
+activate
+
+deactivate
+
+pip list
+
+pip install lib_name
+
+rmdir folder_name /s
+
+-------------------------------------------------------------------
+There are two operators that are overloaded by default
++ - add numbers, concatenate strings
+
+* - multiply numbers, print a string n number of times
+
+
+Basic Data types
+----------------
+1. string
+2. number
+   a. integer
+   b. float
+   c. long (deprecated 3.x)
+   d. complex
+3. Boolean
+
+long data type
+---------------
+3298374982374094927349734L
+
+
+import importlib (35 functions (3 mb))
+
+from importlib import reload (reload becomes local to the environment)
+
+os.system("cls")
+
+reload(filename without extension)
+
+-------------------------------------------------------------------
+Python coding rules
+-------------------
+#! - Shebang - used to specify the path of python executable
+
+line termination is the return key
+
+we don't use parenthesis instead we use indentation
+---------------------------------------------------
+1. loops
+2. if conditions
+3. functions
+4. classes
+
+for ...
+{
+   code to be iterated
+}
+
+-------------------------------
+
+for i in range(1, 10):
+    print(i)
+    print("hello")
+
+
+if i < 10:
+   print("i is the greatest")
+
+
+def fun():
+    print("hello")
+    print("world")
+  
+
+class Test:
+
+   def fun():
+       print("hello")
+
+
+comments in python is prefixed with # - single line comment
+
+strings in python is enclosed in 
+	" double quotes " and ' single quotes '
+
+"this is a single line"
+'this is a single line'
+
+multiple line string 
+
+"""
+this is the first line
+this is the second line
+this is the third line
+"""
+
+'''
+this is the first line
+this is the second line
+this is the third line
+'''
+-------------------------------------------------------------------
+
+Primitive Data types
+----------------
+1. string
+2. number
+   a. integer
+   b. float
+   c. complex
+3. Boolean
+
+
+Operators
+---------
+Arithmetic 	: +, -, /, * 
+Comparison or Relational : >, <, ==, !=, 
+Logical  - and, or,  not
+Bitwise  
+Ternary
+
+
+
+
+
+
+
