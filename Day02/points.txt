@@ -1,0 +1,191 @@
+Operators
+---------
+1. Arithmetic  => +, -, *, /   
+2. Comparison  => ==, >, >=, !=, <, <=
+3. Augmentor   => =, +=, -=, *=, /=
+
+4. Logical Operators
+
+Bitwise Operators
+-----------------
+1 0 1 0 1  => 2 ** 4 + 0 + 2 ** 2 + 0 + 2 ** 0 => 16 + 4 + 1 = 21
+
+2 ** 4 + 2 ** 3 + 2 ** 2 + 2 ** 1 + 2 ** 0
+
+
+or
+--
+0101     - 0 + 1 * 2 ** 2 + 0 + 1 * 2 ** 0 =>  0 + 4 + 0 + 1 => 5
+0011
+----
+0111	- 7
+----
+
+and
+---
+0101
+0011
+----
+0001	- 1
+----
+
+XOR 
+---
+1 0 1 0
+1 0 0 1
+-------
+0 0 1 1
+-------
+
+0101
+0011
+----
+0110	=> 6
+----
+
+left shift operator
+-------------------
+5 << 1
+
+0101 << 1
+
+1010 => 8 + 2 => 10
+
+1000 << 1
+
+10000 >> 16
+
+10000 >> 1  = 1000 => 8
+
+5 << 2
+
+0101 << 2 => 10100 => 20
+
+5 >> 1
+0101 >> 1 => 0010 => 2
+
+
+Loops and Control Structures
+----------------------------
+
+Control Structures
+-------------------
+1. if condition
+
+
+Loops
+-----
+1. for loop
+2. while loop
+
+
+FOR LOOP
+--------
+for loop is similar to foreach loop
+
+foreach loop depends on a collection of objects
+
+for loop depends on values returned by the range function
+
+
+for i in range(1, 11):
+    print(i)
+
+print
+-----
+print(data, sep=, end="\n")
+
+for i in range(1, 6):
+    print(i, end=" ")
+
+1 2 3 4 5
+
+
+1. continue
+2. break
+3. else
+
+
+continue = skip the current iteration
+break = stop the iteration
+
+While loop
+----------
+while (condition):
+    statements
+
+
+1. print the numbers in the following pattern
+
+0
+12
+345
+6789
+
+2. 
+
+1 2 3 4 5
+ 1 2 3 4
+  1 2 3
+   1 2
+    1
+   2 1
+  3 2 1
+ 4 3 2 1
+5 4 3 2 1
+
+
+3. print all prime numbers between 150 and 50
+
+4. Generate Fibonacci series
+
+
+Primitive Data Types
+--------------------
+1. Numbers		- Immutable
+  a. integers
+  b. float
+  c. Complex
+
+2. Boolean
+3. Strings
+
+Strings
+-------
+1. Strings are immutable
+
+strings are enclosed in 
+a. " double quotes "
+b. ' single quotes '
+
+
+-------------------------------
+
+class Car:
+
+   def __init__(self, car, color)
+        self.car = car
+	self.color = color
+
+   getter method -> display the instance variable variables (car, color)
+   def disp_detials(self):
+       print(self.car, self.color)
+
+   setter method -> change the valse of instance variables
+   def updateCar(self, cr, clr):
+   	self.car = cr
+	self.color = clr
+
+merc = Car('C class', 'white')
+
+merc.disp_detials()
+
+merc.updateCar("E class", 'black')
+
+
+
+
+
+
+
+
