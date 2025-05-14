@@ -1,0 +1,89 @@
+Python Data Structures
+----------------------
+1. List
+2. Dictionary
+3. Tuple
+4. Set
+
+List
+----
+Lists are similar to arrays
+
+What are arrays?
+
+1. collection of homogenous data
+2. memory allocation is contagious
+
+What is a list?
+
+list is a collection of heterogenous data
+Memory allocation is not contagious
+Its an ordered collection
+lists are sub scriptable
+lists are mutable
+They are static
+lists are enclosed in []
+
+
+
+
+l = ["abc", 1, 2, 3, 4.5, True, False]
+
+stored
+------
+"abc", 1, 2, 3, 4.5, True, False  - ordered collection
+1, 2, "abc", False, 5, True	  - unodered collection
+
+
+Functions used to manipulate list
+----------------------------------
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+
+index
+-----
+lst1.index(3, start, stop)
+
+start and stop are indexes
+
+lst1.index(3, 5, 15)
+
+lst1.index(3, 5)
+
+lst1 = [1, 2, 1, 2, 3, 1, 1, 1, 1, 1, 1, 2, 3, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 2, 3, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+
+
+4 = lst1.index(3)
+
+lst1.index(3, 5)
+lst1.index(3, lst1.index(3) + 1)
+
+lst1.index(3, 4 + 1)
+lst1.index(3, 5)
+
+Assignment
+----------
+
+strong number
+-------------
+1! = 1
+2! = 2
+
+145! = 1! + 4! + 5! => 1 + 24 + 120 = 145
+
+what is the next strong number after 145
+
+40585! = 4! + 0! + 5! + 8! + 5! = 24 + 1 + 120 + 40320 + 120 = 40320 + 265 = 40585
+
+
+2. use formatting and print the following table
+
+==================================================
+Item                                         Price
+==================================================
+Apples                                        0.40
+Pears                                         0.50
+Cantaloupes                                   1.92
+Dried Apricots (16 oz.)                       8.00
+Prunes (4 lbs.)                              12.00
+==================================================
