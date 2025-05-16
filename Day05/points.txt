@@ -1,0 +1,75 @@
+
+players = {
+  'sachin' : [10, 20, 30],
+  'sehwag' : [49, 33, 87]
+}
+
+print(players['sachin'])   => [10, 20, 30]
+
+------------------------------------------------------------------------------
+player = {'name': 'sachin', 'runs': {'Aus': 650, 'Eng': 400, 'WI': 345}, 'team': 'India', 'age': 34} 
+
+print(f"player :{player}")
+player :{'name': 'sachin', 'runs': {'Aus': 650, 'Eng': 400, 'WI': 345}, 'team': 'India', 'age': 34}
+
+print(f"player['runs'] :{player['runs']}")
+player['runs'] :{'Aus': 650, 'Eng': 400, 'WI': 345}
+
+print(f"player['runs'] :{player['runs']['Eng']}")
+player['runs'] :400
+
+
+m = [[1, 2, 3],
+ [4, 5, 6], 
+ [7, 8, 9]]
+
+
+Tuple
+-----
+tuples are immutable lists
+tuples are enclosed in ( )
+
+'count', 'index'
+
+
+Set
+---
+1. set is a collection of unique values
+2. set is not sub scriptable
+3. set is mutable
+4. sets are unordered collection
+5. sets are enclosed in {1, 2, 3, 4}
+
+
+Functions
+---------
+What are functions?
+any snippet of code that is reused can be converted into a function
+
+call functions
+functions can take arguments
+functions can return values
+we can have recursive calls
+
+1. pass by val, pass by ref
+
+2. lambdas
+3. scope of a variable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
