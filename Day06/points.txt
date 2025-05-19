@@ -1,0 +1,62 @@
+Functions
+---------
+Create a function 
+Calling a function
+Passed Arguments
+   a. Arguments (args) 
+   b. Named Arguments (kwargs)
+Variable length arguments
+   a. *args	(tuple)
+   b. **kwargs  (dictionary)
+
+return values
+   1. one value
+   2. more than one value
+recursive calls
+Doc Strings (__doc__)
+Pass by value 
+Pass by reference
+-------------------------------------------------------------
+1. Lambdas
+2. Scope of a variable
+
+3. Decorator
+
+
+Lamdas 
+------
+1. anonymous functions (nameless function)
+2. single expression
+
+result_of_exp = lambda(var1, var2, var3....: expression)
+
+Scopes in python
+----------------
+1. local
+2. global
+3. non local
+
+
+Decorator
+---------
+1. nested functions
+2. closures
+3. HOF
+4. Decorator
+
+'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -72,6 +72,20 @@ b = 7
 print(f"The product of {a} and {b} is :{multiply_me(a, b)}")
 
 print("-" * 60)
+# function can return more than one value
+
+def ArithCalc(x, y):
+    sum = x + y
+    diff = x - y
+    prod = x * y
+    quot = x / y
+    return sum, diff, prod, quot
+
+res = ArithCalc(20, 8)
+print(f"res :{res}")
+
+print("-" * 60)
+
 # recursive calls - function calling itself
 
 # factorial of a number, fibonacci series
