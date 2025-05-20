@@ -1,0 +1,82 @@
+----------hello----------
+Apples from Ooty
+----------Hi-------------
+-------------------------
+
+----Mera Bharath Mahan---
+Oranges from Kanpur
+-----India is great------
+
+
+write a decorator to find the time taken by a function execute
+
+import time
+
+st = time.perfcount
+
+def fun(x):
+    lst = []
+    for i in range(x):
+	for j in range(1, x + 1):
+	    lst.append(j ** 3)
+
+	
+OOPS
+----
+
+Object Oriented Programming
+---------------------------
+
+Encapsulation	- 
+Abstraction
+Inheritance	- reusability of the code
+Polymorphism    - functions behaviour changes depending on the object 		   passed
+
+class Payments:
+
+   Debit card / Credit card
+   online transfer
+
+
+class UPI(Payments):
+
+   UPI
+
+
+class variable / class attribute
+--------------------------------
+
+class method
+------------
+
+two class methods 
+
+1. set the team head's name
+2. print the team head's name
+
+
+Operator Overloading
+--------------------
++ = adding number => adding age of employees in a class
+
+every operator is bound to a method 
++ = __add__()
+
+- = __sub__()
+
+__method__() have a slang called magic methods
+
+
+Assignment
+----------
+overload all arithmetic operators
+
++, -, *, /, //
+
+
+
+
+
+
+
+
