@@ -1,0 +1,37 @@
+we have 
+
+getter method()
+setter method()
+deleter method()
+
+we will convert these method into properties
+
+Abstract Class
+---------------
+
+polymorphism
+------------
+
+FILE HANDLING
+-------------
+text files - data is stored in ascii 
+
+open a file 
+1. read the contents of the file
+2. write into the file
+3. append data into the file
+
+filehandle = open(filename + path, mode)
+
+
+
+
+
+
+
+
+
+
+
+
+
