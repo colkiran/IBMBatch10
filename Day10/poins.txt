@@ -1,0 +1,95 @@
+Regular Expression
+------------------
+
+validating a license Number - LCNO-KAR-05-2018-0009
+---------------------------------------------------
+
+LCNO - will remain the same
+
+KAR - KAR, KER, APN, TNS, TND, MAH
+
+05 - RTO - 05 - Jaynagar (01 - 73)
+
+2018 - year (2000+)
+
+0009 - license number - 0001 - 9999
+
+ln = "LCNO-KAR"
+
+re.search(r'LCNO-()-', ln)
+
+[0-9][1-9]
+
+LCNO-[KAR|KER|APN|TNS|MAH]-[[0-6][1-9]|[1-7][0-3]]-[2][0-9]{3}-[0-9]{4}
+
+------------------------------------------------------------------------------------------
+
+1. REST API
+
+2. Threads
+
+
+API => Application Programming Interface
+
+REST = Representational State Transfer
+
+API is used for communicating between two applications.
+
+REST uses JSON Data
+
+WSGI = Web Server Gateway Interface
+
+FLASK - REST API
+
+REST API Methods
+----------------
+1. GET - Retrieve the data from the server
+
+2. POST - Add a new record to the server
+
+3. PUT  - Updates the existing resource on the server
+
+4. PATCH - Small updates on the resource
+
+5. DELETE - Delete a specific resource from the server
+
+
+Threads
+-------
+
+Process
+-------
+will have n number of threads created so the task is accomplished faster, each thread will perform on task.
+
+threads can perform I/O tasks
+
+threads can become faster with the help of CPU depending on the no of cores the CPU has
+depending on the number of cores you can run so many threads parallelly
+
+Python has GIL - Global Interpreter Lock
+-----------------------------------------
+GIL will restrict with one instance of the python interpreter and try to execute all the threads with the single instance by time sharing.
+
+only one thread can execute python byte code at a time effectively limiting true parallelism for CPU bound tasks. threads are most suitable for IO bound tasks where the program spends time waiting for external resources.
+
+Python version 3.13 they have released GIL from it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
